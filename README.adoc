@@ -3,6 +3,8 @@ Imteyaz Ahmad <ahmad.imt07@gmail.com>
 
 == Exam Topics
 
+:leveloffset: +1
+
 include::core/core.adoc[]
 
 include::../aop/aop.adoc[]

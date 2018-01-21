@@ -5,7 +5,7 @@ Imteyaz Ahmad <ahmad.imt07@gmail.com>
 
 include::./core/core.adoc[]
 
-include::./aop/aop.adoc[]
+include::../aop/aop.adoc[]
 
 include::./db/db.adoc[]
 

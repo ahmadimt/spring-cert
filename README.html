@@ -753,25 +753,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>MVC is an abbreviation for a design pattern. What does it stand for and what is the idea behind it?</p>
+<p>MVC is an abbreviation for a <em>design pattern</em>. What does it stand for and what is the idea behind it?</p>
 </li>
 <li>
 <p>Do you need spring-mvc.jar in your classpath or is it part of spring-core?</p>
 </li>
 <li>
-<p>What is the DispatcherServlet and what is it used for?</p>
+<p>What is the <code>DispatcherServlet</code> and what is it used for?</p>
 </li>
 <li>
-<p>Is the DispatcherServlet instantiated via an application context?</p>
+<p>Is the <code>DispatcherServlet</code> instantiated via an application context?</p>
 </li>
 <li>
 <p>What is the root application context? How is it loaded?</p>
 </li>
 <li>
-<p>What is the @Controller annotation used for? How can you create a controller without an annotation?</p>
+<p>What is the <code>@Controller</code> annotation used for? How can you create a controller without an annotation?</p>
 </li>
 <li>
-<p>What is the ContextLoaderListener and what does it do?</p>
+<p>What is the <code>ContextLoaderListener</code> and what does it do?</p>
 </li>
 <li>
 <p>What are you going to do in the web.xml. Where do you place it?</p>
@@ -780,25 +780,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>How is an incoming request mapped to a controller and mapped to a method?</p>
 </li>
 <li>
-<p>What is the @RequestParam used for?</p>
+<p>What is the <code>@RequestParam</code> used for?</p>
 </li>
 <li>
-<p>What are the differences between @RequestParam and @PathVariable ?</p>
+<p>What are the differences between <code>@RequestParam</code> and <code>@PathVariable</code> ?</p>
 </li>
 <li>
 <p>What are some of the valid return types of a controller method?</p>
 </li>
 <li>
-<p>What is a View and what&#8217;s the idea behind supporting different types of View ?</p>
+<p>What is a <code>View</code> and what&#8217;s the idea behind supporting different types of View ?</p>
 </li>
 <li>
-<p>How is the right View chosen when it comes to the rendering phase?</p>
+<p>How is the right <code>View</code> chosen when it comes to the rendering phase?</p>
 </li>
 <li>
-<p>What is the Model ?</p>
+<p>What is the <code>Model</code> ?</p>
 </li>
 <li>
-<p>Why do you have access to the model in your View ? Where does it come from?</p>
+<p>Why do you have access to the model in your <code>View</code> ? Where does it come from?</p>
 </li>
 <li>
 <p>What is the purpose of the session scope?</p>
@@ -810,7 +810,212 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Why are controllers testable artifacts?</p>
 </li>
 <li>
-<p>What does the InternalResourceViewResolver do?</p>
+<p>What does the <code>InternalResourceViewResolver</code> do?</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_security">Security</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>What is the delegating filter proxy?</p>
+</li>
+<li>
+<p>What is the security filter chain?</p>
+</li>
+<li>
+<p>In the notes several predefined filters were shown. Do you recall what they did and what</p>
+</li>
+<li>
+<p>order they occurred in?</p>
+</li>
+<li>
+<p>Are you able to add and/or replace individual filters?</p>
+</li>
+<li>
+<p>Is it enough to hide sections of my output (e.g. JSP-Page)?</p>
+</li>
+<li>
+<p>Why do you need the <code>intercept-url</code> ?</p>
+</li>
+<li>
+<p>Why do you need method security? What type of object is typically secured at the method level (think of its purpose not its Java type).</p>
+</li>
+<li>
+<p>Is security a cross cutting concern? How is it implemented internally?</p>
+</li>
+<li>
+<p>What do <code>@Secured</code> and <code>@RolesAllowed</code> do? What is the difference between them?</p>
+</li>
+<li>
+<p>What is a security context?</p>
+</li>
+<li>
+<p>In which order do you have to write multiple intercept-url&#8217;s?</p>
+</li>
+<li>
+<p>How is a <code>Principal</code> defined?</p>
+</li>
+<li>
+<p>What is authentication and authorization? Which must come first?</p>
+</li>
+<li>
+<p>In which security annotation are you allowed to use SpEL?</p>
+</li>
+<li>
+<p>Does Spring Security support password hashing? What is salting?</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rest">REST</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>What does REST stand for?</p>
+</li>
+<li>
+<p>What is a resource?</p>
+</li>
+<li>
+<p>What are safe REST operations?</p>
+</li>
+<li>
+<p>What are idempotent operations? Why is idempotency important?</p>
+</li>
+<li>
+<p>Is REST scalable and/or interoperable?</p>
+</li>
+<li>
+<p>What are the advantages of the RestTemplate?</p>
+</li>
+<li>
+<p>Which HTTP methods does REST use?</p>
+</li>
+<li>
+<p>What is an <code>HttpMessageConverter</code> ?</p>
+</li>
+<li>
+<p>Is REST normally stateless?</p>
+</li>
+<li>
+<p>What does <code>@RequestMapping</code> do?</p>
+</li>
+<li>
+<p>Is <code>@Controller</code> a stereotype? Is <code>@RestController</code> a stereotype?</p>
+</li>
+<li>
+<p>What is the difference between <code>@Controller</code> and <code>@RestController</code> ?</p>
+</li>
+<li>
+<p>When do you need <code>@ResponseBody</code> ?</p>
+</li>
+<li>
+<p>What does <code>@PathVariable</code> do?</p>
+</li>
+<li>
+<p>What is the HTTP status return code for a successful DELETE statement?</p>
+</li>
+<li>
+<p>What does CRUD mean?</p>
+</li>
+<li>
+<p>Is REST secure? What can you do to secure it?</p>
+</li>
+<li>
+<p>Where do you need <code>@EnableWebMVC</code> ?</p>
+</li>
+<li>
+<p>Name some common http response codes. When do you need <code>@ResponseStatus</code> ?</p>
+</li>
+<li>
+<p>Does REST work with transport layer security (TLS)?</p>
+</li>
+<li>
+<p>Do you need Spring MVC in your classpath?</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_spring_boot">Spring Boot</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>What is Spring Boot?</p>
+</li>
+<li>
+<p>What are the advantages of using Spring Boot?</p>
+</li>
+<li>
+<p>Why is it “opinionated”?</p>
+</li>
+<li>
+<p>How does it work? How does it know what to configure?</p>
+</li>
+<li>
+<p>What things affect what Spring Boot sets up?</p>
+</li>
+<li>
+<p>How are properties defined? Where?</p>
+</li>
+<li>
+<p>Would you recognize common Spring Boot annotations and configuration properties if you saw them in the exam?</p>
+</li>
+<li>
+<p>What is the difference between an embedded container and a WAR?</p>
+</li>
+<li>
+<p>What embedded containers does Spring Boot support?</p>
+</li>
+<li>
+<p>What does @EnableAutoConfiguration do? What about @SpringBootApplication?</p>
+</li>
+<li>
+<p>What is a Spring Boot starter POM? Why is it useful?</p>
+</li>
+<li>
+<p>Spring Boot supports both Java properties and YML files. Would you recognize and understand them if you saw them?</p>
+</li>
+<li>
+<p>Can you control logging with Spring Boot? How?</p>
+</li>
+<li>
+<p>Note that the second Spring Boot section (Going Further) is not required for this exam.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_microservices">Microservices</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>What is a microservices architecture?</p>
+</li>
+<li>
+<p>What are the advantages and disadvantages of microservices?</p>
+</li>
+<li>
+<p>What sub-projects of Spring Cloud did we cover in the course? Spring Cloud is a large umbrella project – only what we covered in the course will be tested.</p>
+</li>
+<li>
+<p>Would you recognize the Spring Cloud annotations and configuration we used in the course if you saw it in the exam?</p>
+</li>
+<li>
+<p>What Netflix projects did we use?</p>
+</li>
+<li>
+<p>What is Service Discovery? How is this related to Eureka?</p>
+</li>
+<li>
+<p>How do you setup Service Discovery?</p>
+</li>
+<li>
+<p>How do you access a RESTful microservice?</p>
 </li>
 </ul>
 </div>
@@ -832,7 +1037,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-01-21 22:32:36 IST
+Last updated 2018-01-21 23:16:21 IST
 </div>
 </div>
 </body>

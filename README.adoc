@@ -13,5 +13,13 @@ include::db/db.adoc[]
 
 include::mvc/mvc.adoc[]
 
+include::security/security.adoc[]
+
+include::rest/rest.adoc[]
+
+include::spring-boot/spring-boot.adoc[]
+
+include::microservices/microservices.adoc[]
+
 == Copyrights and References
 * The source for all the topic details is https://d1fto35gcfffzn.cloudfront.net/academy/Core-Spring-4.2-4.3-Certification-Study-Guide.pdf[Spring study guide]

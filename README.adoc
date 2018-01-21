@@ -1,13 +1,17 @@
 = Spring Certification Study Plan
 Imteyaz Ahmad <ahmad.imt07@gmail.com>
 
+:source-highlighter: pygments
+
 == Exam Topics
 
-include::core.adoc[]
+include::core/core.adoc[]
 
-include::aop.adoc[]
+include::aop/aop.adoc[]
 
-include::db.adoc[]
+include::db/db.adoc[]
+
+include::mvc/mvc.adoc[]
 
 == Copyrights and References
 * The source for all the topic details is https://d1fto35gcfffzn.cloudfront.net/academy/Core-Spring-4.2-4.3-Certification-Study-Guide.pdf[Spring study guide]

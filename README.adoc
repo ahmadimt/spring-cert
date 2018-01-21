@@ -3,7 +3,7 @@ Imteyaz Ahmad <ahmad.imt07@gmail.com>
 
 == Exam Topics
 
-include::./core/core.adoc[]
+include::core/core.adoc[]
 
 include::../aop/aop.adoc[]
 

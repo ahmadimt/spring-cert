@@ -1,4 +1,4 @@
-=== Spring Boot
+== Spring Boot
 
 * What is Spring Boot?
 * What are the advantages of using Spring Boot?

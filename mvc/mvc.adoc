@@ -1,4 +1,4 @@
-=== Spring MVC and the Web Layer
+== Spring MVC and the Web Layer
 
 * MVC is an abbreviation for a _design pattern_. What does it stand for and what is the idea behind it?
 * Do you need spring-mvc.jar in your classpath or is it part of spring-core?

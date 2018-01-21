@@ -1,4 +1,4 @@
-=== Data Management: JDBC, Transactions, JPA, Spring Data
+== Data Management: JDBC, Transactions, JPA, Spring Data
 
 * What is the difference between checked and unchecked exceptions?
 * Why do we (in Spring) prefer unchecked exceptions?

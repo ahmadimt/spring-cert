@@ -1,4 +1,4 @@
-=== Microservices
+== Microservices
 
 * What is a microservices architecture?
 * What are the advantages and disadvantages of microservices?

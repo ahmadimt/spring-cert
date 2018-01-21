@@ -1,4 +1,4 @@
-=== Security
+== Security
 
 * What is the delegating filter proxy?
 * What is the security filter chain?

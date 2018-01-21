@@ -1,4 +1,4 @@
-=== Container, Dependency, and IOC
+== Container, Dependency, and IOC
 
 * What is dependency injection and what are the advantages?
 * What is an interface and what are the advantages of making use of them in Java?

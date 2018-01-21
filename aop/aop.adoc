@@ -1,4 +1,4 @@
-=== Aspect oriented programming
+== Aspect oriented programming
 
 * What is the concept of AOP? Which problem does it solve?
 * What is a pointcut, a join point, an advice, an aspect, weaving?
